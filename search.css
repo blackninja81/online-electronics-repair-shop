@@ -1,0 +1,485 @@
+html,
+body{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    color: white;
+    font-family: aerial;
+    background-color: black;
+    
+    
+}
+nav{
+    position:absolute;
+    height:50px;
+    width:100%;
+    background-color:black;
+    z-index:99;
+    text-align: left;
+    opacity:.8;
+    display: block;
+    transition: all 0.5s ease;
+    
+}
+nav.hidden
+{
+    transform: translate3d(0,-100%,0);
+}
+nav a{
+    float: left;
+    text-decoration: none;
+    color:white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    display: block;
+    
+}
+nav a:hover
+{
+   background-color: red;
+}
+.sect{
+    height: 100%;
+   background-size: cover; 
+   background-attachment: fixed;
+   text-decoration: none;
+}
+.subsection{
+    height: 60%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-decoration: none;
+}
+.sect1{
+    background-image: url("main.jpg");
+    text-decoration: none;
+    
+}
+h1{
+    top: 10px;
+    text-align: center;
+}
+h3{
+    top: 10px;
+    text-align: center;
+}
+.sb0{
+    height: 30px;
+    text-align: left;
+    color: white;
+    background-color: black;
+    text-height: 100px;
+    padding: 0;
+    top: 0;
+    margin: 0;
+    opacity: 1.0;
+}
+.sb1{
+    
+    background-image: url("tech.jpg");
+     width: 50%;
+     display: inline-block;
+     float: left;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+     
+    opacity: 0.6;
+}
+.sb1:hover{
+    
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    opacity: 1.5;
+    
+}
+.sb1 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb1:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+
+.sb2{
+    background-image: url("elec.jpg");
+    width: 50%;
+    display: inline-block;
+    float:right;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0.6;
+}
+.sb2:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+.sb2 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb2:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+
+
+.sb3{
+    background-image: url("rep.jpg");
+    width: 50%;
+     display: inline-block;
+     float: left;
+     opacity: 0.6;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+
+}
+.sb3:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+.sb3 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb3:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+
+.sb4{
+    background-image: url("laundry.jpg");
+    width: 50%;
+     display: inline-block;
+     float:right;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0.6;
+
+}
+.sb4:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+.sb4 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb4:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+  
+
+.sb5{
+    background-image: url("lawn.jpg");
+    width: 50%;
+     display: inline-block;
+     float: left;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0.6;
+
+}
+.sb5:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+.sb5 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb5:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+
+.sb6{
+    opacity: 0.6;
+    background-image: url("gardener.jpg");
+    width: 50%;
+     display: inline-block;
+     float:right;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+
+}
+.sb6:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+.sb6 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb6:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+
+.sb7{
+    background-image: url("plumB.jpg");
+    width: 50%;
+     display: inline-block;
+     float: left;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0.6;
+
+}
+.sb7:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+.sb7 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb7:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+
+.sb8{
+    background-image: url("painter.jpg");
+    width: 50%;
+     display: inline-block;
+     float:right;
+     position: relative;
+     background-size: 110%; 
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0.6;
+
+}
+.sb8:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+.sb8 :after{
+     
+            
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6); 
+    color: #fff;
+    padding: 0 8px;
+    
+    opacity: 0;
+    content: attr(data-text);
+    transition: 0.5s;    
+}
+.sb8:hover:after{
+    opacity:1;
+    top: 0;
+    padding: 8px;
+       
+}
+.sb9{
+    background-color: white;
+    width: 100%;
+    height: 20%;
+     display: inline-block;
+     float: left;
+     position: relative;
+     color: black;
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0.6;
+
+}
+.sb9:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+
+.sb10{
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    color: black;
+     display: inline-block;
+     float: left;
+     position: relative;
+     
+     background-position: center;
+     transition: 0.5s;
+     opacity: 0.6;
+
+}
+.sb10:hover{
+    opacity: 1.6;
+    background-size: 100%;
+    transition: 0.5s;
+    background-position: center;
+    
+}
+
+

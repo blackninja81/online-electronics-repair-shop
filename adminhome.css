@@ -1,0 +1,44 @@
+body{
+
+    height:100%;
+    width:100%;
+    background-size: cover;
+    color: white;
+    font-family: aerial;
+}
+.requests{
+
+     width: 50%;
+     height: 50%;
+     display: inline-block;
+     float: left;
+     position: relative; 
+     background-position: center;
+}
+.jobrequests{
+
+     width: 50%;
+     height: 50%;
+     display: inline-block;
+     float: right;
+     position: relative; 
+     background-position: center;
+}
+.employees{
+
+     width: 50%;
+     height: 50%;
+     display: inline-block;
+     float: left;
+     position: relative; 
+     background-position: center;
+}
+.feedback{
+
+     width: 50%;
+     height: 50%;
+     display: inline-block;
+     float: right;
+     position: relative; 
+     background-position: center;
+}

@@ -1,0 +1,41 @@
+
+nav{
+
+    transition: 0.4s;
+    padding-top: 0;
+    height:60px;
+    width:81.09%;
+    list-style-type: none;
+    background-color:black;
+    z-index:99;
+    text-align: right;
+    margin-left: 120px;
+    display: block;
+    text-decoration: none;
+    
+}
+nav a{
+
+    float: left;
+    text-decoration: none!important;
+    list-style-type: none;
+    color:white;
+    width: 182.3px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    z-index:99;
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;   
+    
+}
+nav a:hover
+{
+   background-color: #F1C40F;
+   text-decoration: none;
+   list-style-type: none;
+   height: 50px;
+   color: white;
+}

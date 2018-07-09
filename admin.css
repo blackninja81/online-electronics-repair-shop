@@ -1,0 +1,155 @@
+html,
+
+body{
+    height:100%;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    background-size: cover;
+    color: white;
+    font-family: aerial;
+    background-color: black;
+    background-attachment: fixed;
+    background-image: url("img/about4.jpg");
+    text-align: center;
+    font-size: 20px;
+    
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  list-style: none; 
+
+}
+ul li{
+    float: left;
+    width: 210px;
+    height: 60px;
+    background-color: black;
+    line-height: 60px;
+    text-align: center;
+    display: block;
+
+}
+ul li a:hover{
+    background-color: blue;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+
+}
+ul li ul li{
+display: none;
+}
+ul li:hover ul li
+{
+    display: block;
+}
+
+nav{
+
+    transition: 1.4s;    
+    padding-top: 0;
+    height:60px;
+    width:90%;
+    
+    list-style-type: none;
+    background-color:black;
+    z-index:99;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    
+}
+nav a{
+
+    float: left;
+    text-decoration: none!important;
+    list-style-type: none;
+    color:white;
+    width: 210px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    z-index:99;
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;   
+    
+}
+nav a:hover
+{
+   background-color: #0000CD;
+   text-decoration: none;
+   list-style-type: none;
+   height: 60px;
+   color: white;
+}
+
+p{
+        
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    font-size: 30px;
+    padding-top: 100px; 
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+table{
+    margin-left: 110px;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+tr{
+    
+    table-layout:fixed;
+    padding-bottom: 30px;
+}
+th{
+table-layout:fixed;
+ height: 80px;
+ width: 25%;
+ text-align: center;
+ color: black;
+ font-size: 20px;
+ background-color: white;
+
+   
+}
+td{
+margin:none; 
+width: 25%;
+word-wrap: break-word;
+height: 200px;
+text-align: center;
+color: black;
+background-color: white;
+padding-top: 20px;
+padding-left: 10px;
+padding-right:10px; 
+padding-bottom: 20px;
+table-layout:fixed;
+
+
+}
+
+h1{
+    top: 10px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+h3{
+    top: 10px;
+    text-align: center;
+}
+

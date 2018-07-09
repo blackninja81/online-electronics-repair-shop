@@ -1,0 +1,441 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    font-family: normal;
+    font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+
+}
+
+
+.container {
+    max-width:400px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact textarea
+     #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+    background:#F9F9F9;
+    padding:25px;
+    margin:50px 0;
+}
+
+#contact h3 {
+    color: black;
+    display: block;
+    font-size:25px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact textarea {
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -moz-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+}
+#contact textarea {
+    height:100px;
+    max-width:100%;
+  resize:none;
+}
+
+
+#contact button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:red;
+    color:#FFF;
+    margin:0 0 3px;
+    padding:20px;
+    font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+    background:#09C;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active
+ { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+body{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    color: black;
+    font-family: aerial;
+    background-color: white;
+    
+    
+}
+.text{
+   text-align: center;
+   height: 100px;
+   width: 97%;
+   color: black;
+   margin-right: 20px;
+   background-color: white; 
+}
+.text h1{
+    margin: 0;
+    line-height: 100px;
+    font-size: 48px;
+}
+
+.sticky{
+    
+    top: 0 ;
+    left: 0 ;
+    margin-left: 127px;
+    width: 81.09%;
+}
+.sticky a{
+    float: left;
+    width: 182.3px;
+    text-align: center;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none; 
+  display: block;
+
+}
+ul li a {
+  overflow: hidden;
+  z-index: 1;
+}
+ul li a:after {
+  display: block;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '.';
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: black;
+}
+ul li a:hover:after {
+  -webkit-animation: circle 0.7s ease-in forwards;
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+    width: 182.3px;
+    list-style: none;
+    height: 60px;
+    text-decoration: none;
+    background-color: black;
+    line-height: 60px;
+    text-align: center;
+    display: block;
+
+}
+ul li ul li{
+text-decoration: none;
+list-style: none;
+display: none;
+}
+ul li:hover ul li
+{
+    display: block;
+    background-color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #333;
+  }
+}
+
+/* Keyframes */
+@-webkit-keyframes circle {
+  0% {
+    width: 1px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    z-index: -1;
+    background: #eee;
+    border-radius: 100%;
+  }
+  100% {
+    background: #aaa;
+    height: 5000%;
+    width: 5000%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0;
+  }
+}
+
+nav{
+
+    transition: 1.4s;    
+    padding-top: 0;
+    height:60px;
+    width:100%;
+    list-style-type: none;
+    background-color:black;
+    z-index:99;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    
+}
+nav a{
+
+    float: left;
+    text-decoration: none!important;
+    list-style-type: none;
+    color:white;
+    width: 182.3px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    z-index:99;
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;   
+    
+}
+nav a:hover
+{
+   background-color: red;
+   text-decoration: none;
+   list-style-type: none;
+   height: 60px;
+   color: white;
+}
+
+.userinfo{
+	float: left;
+	width: 50%
+	height: 100%
+}
+.deviceinfo{
+	float: right;
+	width: 50%
+	height: 100%
+}
+/* -------------------- Page Styles (not required) */
+div { margin: 20px; }
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; 
+   width: 268px;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+/*Rounded Corners */
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+/* Colors: Background */
+.slate   { background-color: #ddd; }
+.green   { background-color: #779126; }
+.blue    { background-color: #3b8ec2; }
+.yellow  { background-color: #eec111; }
+.black   { background-color: #000; }
+
+/*Colors: Text */
+.slate select   { color: #000; }
+.green select   { color: #fff; }
+.blue select    { color: #fff; }
+.yellow select  { color: #000; }
+.black select   { color: #fff; }
+
+
+#mainselection select {
+   border: 0;
+   color: #EEE;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 378px;
+   *width: 350px;
+   *background: #58B14C;
+   -webkit-appearance: none;
+}
+
+#mainselection {
+   overflow:hidden;
+   width:350px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+   background: #58B14C url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 319px center;
+}
+
+select#soflow, select#soflow-color {
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+
+select#soflow-color {
+   color: #fff;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+   background-color: #779126;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 15px;
+}
+.crimerecord{
+  background-color: red;
+}

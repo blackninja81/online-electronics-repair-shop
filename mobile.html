@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Phone</title>
+	 
+       
+         <link rel="stylesheet" type="text/css" href="new.css">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" href="device.css">
+        <link rel="stylesheet" href="respond.css">       
+       
+</head>
+<body>
+
+    <nav>
+  <ul>
+          <li><a href = "mainmenu.php">HOME</a></li> 
+      <li><a href="">DEVICES</a>
+        <ul>
+           <li><a href="laptop.php">Laptop</a></li>
+           <li><a href="television.php">Television</a></li>
+           <li><a href="desktop.php">Desktop</a></li>
+           <li><a href="fridge.php">Fridge</a></li>
+         </ul>
+      </li>
+          <li><a href="service.html">SERVICES</a></li>
+         
+</ul>  
+      </nav>           
+  
+ <div class="contac">
+<form id="contact" method="post" action="">
+
+<div class="userinfo">
+<h1>Enter Your Personal Information</h1>
+<br>
+	<fieldset>
+    <h3>Your Name</h3><input placeholder="Your name" type="text" tabindex="1" required >
+    </fieldset>
+    <fieldset>
+     <h3>Phone Number</h3><input placeholder="Your Phone Number" type="text" tabindex="2" required >
+    </fieldset>
+    <fieldset>
+    <h3>Address</h3><input placeholder="Your Address" type="text" tabindex="3" required >
+    </fieldset>
+    <h3>Email</h3><fieldset>
+      <input placeholder="Your Email" type="email" tabindex="4" required ><br>
+     
+</div>
+
+<div class="deviceinfo">
+<h1>Enter The Device Information</h1>
+<br>
+	<fieldset>
+    <h3>Device Name</h3><input placeholder="Device Name" type="text" tabindex="5" required >
+    </fieldset>
+
+
+<form action="dropdown.php" method="post">
+
+     <h3>Device Type</h3>   
+    <fieldset>
+    <div id="select" class="styled-select slate">
+    <select name="select1">
+  <option>Choose a phone Model</option>
+  <option value="smartphone">Smart Phone</option>
+  <option value="tablet">Tablet</option>
+  <option value="kpphone">Keypad phone</option>
+  <option value="fphone">flip phone</option>
+  <option value="other">other</option>
+</select>  
+</div>
+    </fieldset>
+    
+    <h3>Software Version</h3><fieldset>
+    <div id="select" class="styled-select slate">
+      <select name="select2">
+  <option>Choose Software Version</option>    
+  <option value="android">Android</option>
+  <option value="ios">IOS</option>
+  <option value="bos">Blackberry OS</option>
+  <option value="other1">Other</option>
+</select>
+</div>
+  
+      <h3>Problem</h3><fieldset>
+      <div id="select" class="styled-select slate">
+      <select name="select3">
+  <option>Choose the Problem</option>
+  <option value="dscreen">Dead Screen</option>
+  <option value="uscreen">unresponsive screen</option>
+  <option value="cscreen">Cracked Screen</option>
+  <option value="dbattery">Dead Battery</option>
+  <option value="sspeaker">Spoiled speaker</option>
+  <option value="smicrophone">Spoiled Microphone</option>
+  <option value="scameraf">Spoiled camera(front)</option>
+  <option value="scamerab">Spoiled camera(back)</option>
+  <option value="ukeys">unresponsive keys</option>
+  <option value="ncharging">Not charging</option>
+  <option value="sheadphone">Spoiled headphonejack</option>
+  <option value="other2">Other Problem</option>
+
+</select>
+</div>
+  
+  </form>
+
+      <h3>Problem Description</h3>
+       <fieldset>
+      <textarea placeholder="Describe the problem" tabindex="10"></textarea>
+    </fieldset>
+   
+   <br>
+  
+<fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending"><h3>Submit</h3></button>
+    </fieldset>
+  </div>
+
+</form>
+</body>
+</html>

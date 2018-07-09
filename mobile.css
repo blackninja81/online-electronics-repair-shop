@@ -1,0 +1,54 @@
+body{
+height: 100%;
+width: 100%;
+
+}
+.subsection{
+    height: 60%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-decoration: none;
+}
+.mobile{
+    background-attachment: fixed;
+    background-image: url("main.jpg");
+    text-decoration: none;
+    
+}
+
+.television{
+    color: black;
+    background-color: white;
+    background-attachment: fixed;
+    background-image: url("lawn.jpg");
+    text-decoration: none;
+    
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;  
+}
+ul li{
+    float: left;
+    width: 165px;
+    height: 60px;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+    display: block;
+
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+
+}
+ul li ul li{
+display: none;
+}
+ul li:hover ul li
+{
+    display: block;
+}
+
